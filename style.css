@@ -1,0 +1,198 @@
+body{
+    overflow: hidden;
+    margin: 0;
+}
+#container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+}
+#back{
+    height: 100%;
+    width:100%;
+    background:url("sky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+#heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#game{
+    float: left;
+    margin-top: 20px;
+    width: 30%;    
+    padding-left: 100px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    
+    
+}
+#box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9{
+    float: left;
+    height:120px;
+    width: 120px;
+    border: white 1px solid;
+    margin: 2px 2px 2px 2px;
+}
+#box1:hover,#box2:hover,#box3:hover,#box4:hover,#box5:hover,#box6:hover,#box7:hover,#box8:hover,#box9:hover{    
+    background-color:rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+#para1{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+    font-size: 13px;
+    margin-top: -30px;
+   
+}
+#player{
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 150px;
+    padding-bottom: 300px;
+    padding-top: 25px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    
+}
+#computer{
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 300px;
+    padding-top: 25px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
+#pointX{
+    color: white;
+    padding-left: 75px;
+}
+#pointY{
+    color: white;
+    padding-left: 75px;
+}
+
+.buttons{
+   
+    float: left;
+    background-color: rgb(82, 8, 180); 
+    border: none;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+.buttons:hover {
+    box-shadow: 0 8px 16px 0 rgba(248, 248, 248, 0.295), 0 6px 20px 0 rgba(248, 248, 248, 0.295);
+
+}
+.button1{
+    float: left;
+    margin-bottom: 0px;
+    margin-top:20px;
+    margin-right: 220px;
+    margin-left: -50px;
+   
+   
+    
+    
+}  
+.button2{
+    float: left;
+    margin-bottom: 0px;
+    margin-top:20px;
+    width: 25%;
+   
+   
+}  
+
+#star{
+    animation-name: star;
+    animation-duration: 5s;
+    transform-origin:50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@-webkit-keyframes star {
+    0% {
+        -webkit-transform: scale(0.3) rotate(0deg);
+        opacity: 0;
+      }
+      25% {
+        -webkit-transform: scale(1) rotate(360deg);
+        opacity: 1;
+      }
+      50% {
+        -webkit-transform: scale(0.3) rotate(720deg);
+        opacity: 0;
+      }
+      75%{
+        -webkit-transform: scale(1) rotate(360deg);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: scale(0.3) rotate(0deg);
+        opacity: 0;
+      }
+}
+
+
+
+#galaxy {
+    padding-top: 10px;
+    padding-left: 10px;
+    -webkit-animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+#comment{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    width: 200px;
+    padding: 10px 10px;
+    margin-left: 80px;
+    font-size: 15px;   
+    border: gray dashed; 
+    color: white;
+    background:rgb(56, 2, 82);
+    box-shadow: blue;
+}
+  
+
+

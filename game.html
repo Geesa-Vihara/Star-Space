@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title >Star Space</title>
+      <img src="star4.png" style="width:100px">
+      <script src="script.js"></script>
+  </head>
+  <body >    
+      <div id="container">
+        <div id="back">
+     
+     <h1 id="heading">STAR SPACE</h1>
+     <p id="para1">The ultimate Tic Tac Toe like game</p>
+    
+    <!-- background:linear-gradient(rgba(26,26,26,0.5),rgba(26,26,26,0.5));-->
+     <div class="row"> 
+       <div id="player">  
+          <img src="player.png" alt="Player" style="width:175px">
+          <h1 id="pointX">0</h1>
+          
+          </div>
+          <div id="game">
+              <div id="comment">Make your stars shine!</div><br>
+              <div id="box1"              
+              onClick="divClicked(1)">
+              
+              </div>
+            <div id="box2"
+           
+            onClick="divClicked(2)">
+            </div>
+            <div id="box3"
+
+           
+            onClick="divClicked(3)">
+            
+            </div><br>
+            <div id="box4"
+           
+            onClick="divClicked(4)">
+            </div>
+            <div id="box5"
+         
+            onClick="divClicked(5)">
+            </div>
+            <div id="box6"
+            
+            onClick="divClicked(6)">
+            </div><br>
+            <div id="box7"
+            
+            onClick="divClicked(7)">
+            </div>
+            <div id="box8"
+            
+            
+            onClick="divClicked(8)">
+            </div>
+            <div id="box9" 
+            
+            onClick="divClicked(9)">
+            </div>
+            <button type="button" class="buttons button1" onclick="playAgain()">PLAY AGAIN!</button>
+            
+           
+           <button type="button" class="buttons button2" onclick="reset()">RESET</button>
+          
+          </div>
+            <div id="computer">
+                <img src="computer.png" alt="Player" style="width:175px">
+                <h1 id="pointY">0</h1>
+                
+            </div>
+    </div>
+  </div>
+</div>
+ 
+
+    
+
+  </body>
+</html>
