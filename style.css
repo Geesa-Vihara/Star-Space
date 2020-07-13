@@ -32,18 +32,17 @@ body{
 #game{
     float: left;
     margin-top: 20px;
-    width: 30%;    
-    padding-left: 100px;
+    width: 40%; 
     padding-bottom: 60px;
     padding-top: 50px;
     background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    text-align: center; 
     
     
 }
 #box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9{
     float: left;
-    height:120px;
-    width: 120px;
+    height:150px;
     border: white 1px solid;
     margin: 2px 2px 2px 2px;
 }
@@ -61,10 +60,9 @@ body{
 }
 #player{
     float: left;
-    width: 20%;
+    width: 30%;
     margin-top: 20px;
-    margin-left: 30px;
-    padding-left: 150px;
+    text-align: center;  
     padding-bottom: 300px;
     padding-top: 25px;
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
@@ -72,26 +70,24 @@ body{
 }
 #computer{
     float: left;
-    width: 20%;
-    margin-right: 10px;
+    text-align: center;    
+    width: 30%;
     margin-top: 20px;
-    padding-left: 150px;
     padding-bottom: 300px;
     padding-top: 25px;
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
 }
 #pointX{
     color: white;
-    padding-left: 75px;
+    text-align: center; 
 }
 #pointY{
     color: white;
-    padding-left: 75px;
+    text-align: center; 
 }
 
 .buttons{
    
-    float: left;
     background-color: rgb(82, 8, 180); 
     border: none;
     color: white;
@@ -114,21 +110,23 @@ body{
 
 }
 .button1{
-    float: left;
-    margin-bottom: 0px;
+    
+  /*   margin-bottom: 0px;
     margin-top:20px;
     margin-right: 220px;
     margin-left: -50px;
-   
-   
+    */
+    margin-top: 20px;
+    margin-right: 10px;
     
     
 }  
 .button2{
-    float: left;
+   /*  float: left;
     margin-bottom: 0px;
-    margin-top:20px;
-    width: 25%;
+    margin-top:20px; */
+    margin-top: 20px;
+    
    
    
 }  
@@ -186,13 +184,12 @@ body{
     text-align: center;
     width: 200px;
     padding: 10px 10px;
-    margin-left: 80px;
     font-size: 15px;   
     border: gray dashed; 
     color: white;
     background:rgb(56, 2, 82);
     box-shadow: blue;
+    margin:0 auto;
 }
-  
 
 

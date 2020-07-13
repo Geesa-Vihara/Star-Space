@@ -33,7 +33,7 @@
             if(painted[divNumber-1]==false&&flag==0&&turn==0){
                     
                
-                       document.getElementById(thediv).innerHTML="<img id='star' src='star5.png'style='width:120px' height='120px'>";   
+                       document.getElementById(thediv).innerHTML="<img id='star' src='star5.png'style='width:100%' height='100%'>";   
                        painted[divNumber-1]=true;
                        content[divNumber-1]='X';
                                       
@@ -107,7 +107,7 @@
                 }
                 }
             thediv="box"+(num+1);
-            document.getElementById(thediv).innerHTML="<img id='galaxy' src='galaxy.png'style='width:100px' height='100px'>";                      
+            document.getElementById(thediv).innerHTML="<img id='galaxy' src='galaxy.png'style='width:100%' height='100%'>";                      
             painted[num]=true;
             content[num]='O';
             move=0;         
